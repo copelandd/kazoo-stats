@@ -1,3 +1,9 @@
+/*                                                                                                                                                                                                                                                                                                 
+Section: Stats
+Title: Stats
+Language: en-US
+*/
+
 Events counts are collected by whistle_stats.erl running on every kazoo 
 cluster node and are regularly sent via the targeted/statistics amqp queue to 
 the stats application. The stats application can be queried using SNMP. 
